@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409609ef-7cb0-4054-9189-53ab577f038a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../FlappyBirdTest/create_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FlappyBirdTest/create_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlappyBirdTest/qlearn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FlappyBirdTest/qlearn_model.py" afterDir="false" />
       <change beforePath="$USER_HOME$/FlappyBirdTest/create_model.py" beforeDir="false" afterPath="$USER_HOME$/FlappyBirdTest/create_model.py" afterDir="false" />
       <change beforePath="$USER_HOME$/FlappyBirdTest/model.h5" beforeDir="false" afterPath="$USER_HOME$/FlappyBirdTest/model.h5" afterDir="false" />
       <change beforePath="$USER_HOME$/FlappyBirdTest/qlearn_model.py" beforeDir="false" afterPath="$USER_HOME$/FlappyBirdTest/qlearn_model.py" afterDir="false" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="testDQNAgent.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testDQNAgent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="-134">
+              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -32,8 +30,8 @@
       <file leaf-file-name="qlearn_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/FlappyBirdTest/qlearn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1316">
-              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="417">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#22#59#0" expanded="true" />
               </folding>
@@ -41,10 +39,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="wrapped_flappy_bird.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/FlappyBirdTest/game/wrapped_flappy_bird.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-909" />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DQNAgent.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/FlappyBirdTest/RLAgents/DQNAgent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
+            <state relative-caret-position="294">
               <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -56,7 +61,7 @@
       <file leaf-file-name="BaseDQNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/FlappyBirdTest/RLAgents/BaseDQNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427" />
+            <state relative-caret-position="-178" />
           </provider>
         </entry>
       </file>
@@ -83,9 +88,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,11 +111,15 @@
               <item name="Tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlappyBirdTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlappyBirdTest" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,16 +186,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13820492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07466243" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50026983" side_tool="true" weight="0.30481285" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973017" weight="0.4289655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973017" weight="0.4283604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328877" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -196,6 +206,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -385,9 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/FlappyBirdTest/game/wrapped_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -403,13 +411,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/FlappyBirdTest/NNets/FFNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/NNets/FFNet.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -425,11 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/FlappyBirdTest/RLAgents/BaseDQNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/FlappyBirdTest/create_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -437,9 +434,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/FlappyBirdTest/game/wrapped_flappy_bird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909" />
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/FlappyBirdTest/RLAgents/DQNAgent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
+        <state relative-caret-position="294">
           <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -449,18 +451,23 @@
     </entry>
     <entry file="file://$USER_HOME$/FlappyBirdTest/qlearn_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1316">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="417">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#22#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/FlappyBirdTest/RLAgents/BaseDQNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testDQNAgent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="-134">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

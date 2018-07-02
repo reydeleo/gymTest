@@ -11,8 +11,8 @@ from RLAgents import DQNAgent
 
 import matplotlib.pyplot as plt
 
-ACTIONS = 3 # number of valid actions
-OBSERVATION = 32 # timesteps to observe before training
+ACTIONS = 6 # number of valid actions
+OBSERVATION = 3200 # timesteps to observe before training
 REPLAY_MEMORY = 5000 # number of previous transitions to remember
 EXPLORE = 3000000 # frames over which to anneal epsilon
 FINAL_EPSILON = 0.0001 # final value of epsilon
@@ -22,10 +22,11 @@ FRAME_PER_ACTION = 3
 NUM_OF_EPISODES = 800
 
 def gameInit(game_state, agent):
+    game_state.reset()
     # get the first state by doing nothing and preprocess the image to 80x80x4
     do_nothing = np.zeros(ACTIONS)
     do_nothing[0] = 1
-    action = 0
+    action = 0                                              #not very sure of this because 0 and also 1 dont do anything
     x_t, r_0, terminal, _ = game_state.step(action)
 
     x_t = skimage.color.rgb2gray(x_t)
@@ -78,10 +79,10 @@ def fillMemory(game_state, agent, frames=2**10):
     frames = trange(frames)
     frames.set_description('Filling Memory...')
     for t in frames:
-        action = np.random.randint(3)
+        action = np.random.randint(6)                                              #this was changed because now is Pong
         # run the selected action and observed next state and reward
         x_t1_colored, r_t, terminal, _ = game_state.step(action)
-        game_state.render()        #this is just for me to see what is happening in the actual game
+        game_state.render() #this is just for me to see what is happening in the actual game
         x_t1 = skimage.color.rgb2gray(x_t1_colored)
         x_t1 = skimage.transform.resize(x_t1, (80, 80))
         x_t1 = skimage.exposure.rescale_intensity(x_t1, out_range=(0, 255))
@@ -95,8 +96,7 @@ def fillMemory(game_state, agent, frames=2**10):
 
 def trainAgentEpisodic(agent):
     # open up a game state to communicate with emulator
-    game_state = gym.make('Freeway-v0')
-    game_state.reset()
+    game_state = gym.make('Pong-v0')
     fillMemory(game_state, agent, OBSERVATION)
 
     episode_scores = []
