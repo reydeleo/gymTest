@@ -12,7 +12,7 @@ from RLAgents import DQNAgent
 import matplotlib.pyplot as plt
 
 ACTIONS = 6 # number of valid actions
-OBSERVATION = 3200 # timesteps to observe before training
+OBSERVATION = 32 # timesteps to observe before training
 REPLAY_MEMORY = 5000 # number of previous transitions to remember
 EXPLORE = 3000000 # frames over which to anneal epsilon
 FINAL_EPSILON = 0.0001 # final value of epsilon
