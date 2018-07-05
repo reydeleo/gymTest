@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/FlappyBirdTest/.idea/FlappyBirdTest.iml" filepath="$USER_HOME$/FlappyBirdTest/.idea/FlappyBirdTest.iml" />
       <module fileurl="file://$USER_HOME$/RLAgents/.idea/RLAgents.iml" filepath="$USER_HOME$/RLAgents/.idea/RLAgents.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Tests.iml" filepath="$PROJECT_DIR$/.idea/Tests.iml" />
     </modules>
